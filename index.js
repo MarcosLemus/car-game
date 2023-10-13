@@ -3,5 +3,7 @@ window.addEventListener('load', () => {
 
 	startBtn.addEventListener('click', () => {
 		Game.init()
+
+		console.log(Game);
 	})
 })
